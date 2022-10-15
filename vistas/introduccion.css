@@ -1,0 +1,266 @@
+@import url("https://themes.googleusercontent.com/fonts/css?kit=zqpv9qCntOqpqyzFcziM2jFXDelBu2lgpLV8Tx-HAlTk6Lzqt4v4L9kq0HzGZ6Gj");
+ol {
+  margin: 0;
+  padding: 0;
+}
+table td,
+table th {
+  padding: 0;
+}
+.c11 {
+  padding-top: 0pt;
+  text-indent: 18pt;
+  padding-bottom: 0pt;
+  line-height: 1;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+  margin-right: 18pt;
+  height: 10pt;
+}
+.c4 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 8pt;
+  font-family: "Bookman Old Style";
+  font-style: normal;
+}
+.c5 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 10pt;
+  font-family: "Elite";
+  font-style: normal;
+}
+.c8 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 10pt;
+  font-family: "Times New Roman";
+  font-style: normal;
+}
+.c0 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Bookman Old Style";
+  font-style: normal;
+}
+.c16 {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 16pt;
+  font-family: "Bookman Old Style";
+  font-style: normal;
+}
+.c10 {
+  margin-left: -18pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1;
+  orphans: 2;
+  widows: 2;
+  text-align: right;
+}
+.c3 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 10pt;
+  font-family: "Elite";
+  font-style: italic;
+}
+.c1 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Bookman Old Style";
+  font-style: italic;
+}
+.c17 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 9pt;
+  font-family: "Bookman Old Style";
+  font-style: normal;
+}
+.c9 {
+  margin-left: 54pt;
+  padding-top: 0pt;
+  padding-bottom: 12pt;
+  line-height: 1;
+  text-align: justify;
+  margin-right: 54pt;
+}
+.c2 {
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1;
+  orphans: 2;
+  widows: 2;
+  text-align: justify;
+}
+.c13 {
+  padding-top: 0pt;
+  padding-bottom: 30pt;
+  line-height: 2;
+  orphans: 2;
+  widows: 2;
+  text-align: center;
+}
+.c7 {
+  padding-top: 0pt;
+  padding-bottom: 6pt;
+  line-height: 1;
+  text-align: left;
+}
+.c6 {
+  padding-top: 0pt;
+  padding-bottom: 6pt;
+  line-height: 1;
+  text-align: justify;
+}
+.c15 {
+  vertical-align: baseline;
+  font-size: 9pt;
+  font-family: "Bookman Old Style";
+  font-weight: 700;
+}
+.c12 {
+  background-color: #ffffff;
+  padding: 70.9pt 42.5pt 53.9pt 85pt;
+}
+.c14 {
+  width: 33%;
+  height: 1px;
+}
+.title {
+  padding-top: 24pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 36pt;
+  padding-bottom: 6pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+.subtitle {
+  padding-top: 18pt;
+  color: #666666;
+  font-size: 24pt;
+  padding-bottom: 4pt;
+  font-family: "Georgia";
+  line-height: 1;
+  page-break-after: avoid;
+  font-style: italic;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+li {
+  color: #000000;
+  font-size: 10pt;
+  font-family: "Times New Roman";
+}
+p {
+  margin: 0;
+  color: #000000;
+  font-size: 10pt;
+  font-family: "Times New Roman";
+}
+h1 {
+  padding-top: 24pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 24pt;
+  padding-bottom: 6pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+h2 {
+  padding-top: 18pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18pt;
+  padding-bottom: 4pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+h3 {
+  padding-top: 14pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14pt;
+  padding-bottom: 4pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+h4 {
+  padding-top: 12pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 12pt;
+  padding-bottom: 2pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+h5 {
+  padding-top: 11pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 11pt;
+  padding-bottom: 2pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
+h6 {
+  padding-top: 10pt;
+  color: #000000;
+  font-weight: 700;
+  font-size: 10pt;
+  padding-bottom: 2pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+}
