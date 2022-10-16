@@ -49,7 +49,7 @@ const create_file = (title, pasajes, relleno) => {
   const header = `<body>
     <content>
     <h1>${title}</h1>
-    <p>
+    <p id='pasajes-main'>
   `;
 
   const body = pasajes
