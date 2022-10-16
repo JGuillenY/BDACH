@@ -1,4 +1,4 @@
-@import url("https://themes.googleusercontent.com/fonts/css?kit=zqpv9qCntOqpqyzFcziM2jFXDelBu2lgpLV8Tx-HAlTW_RY4Dw_Aem00_js6UbwtM0CBGSjGm4EJg6ZB6AL0OLmhOR2DAJR4xxjT6-YQ14DVyA9AJwC7V1TaQT3BsumxsE54Gzm0UuyocL2ooqw7QuikBuEydqIiONDzulYIBIQG6o5rumMtCobld7uno2KnYa6Sib-t7rjQHe5jbTUQCA");
+@import url('https://themes.googleusercontent.com/fonts/css?kit=zqpv9qCntOqpqyzFcziM2jFXDelBu2lgpLV8Tx-HAlTW_RY4Dw_Aem00_js6UbwtM0CBGSjGm4EJg6ZB6AL0OLmhOR2DAJR4xxjT6-YQ14DVyA9AJwC7V1TaQT3BsumxsE54Gzm0UuyocL2ooqw7QuikBuEydqIiONDzulYIBIQG6o5rumMtCobld7uno2KnYa6Sib-t7rjQHe5jbTUQCA');
 ol {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ table th {
   vertical-align: baseline;
   text-decoration-skip-ink: none;
   font-size: 9pt;
-  font-family: "Century Schoolbook";
+  font-family: 'Century Schoolbook';
   font-style: italic;
 }
 .c11 {
@@ -37,7 +37,7 @@ table th {
   vertical-align: baseline;
   text-decoration-skip-ink: none;
   font-size: 9pt;
-  font-family: "Century Schoolbook";
+  font-family: 'Century Schoolbook';
   font-style: normal;
 }
 .c13 {
@@ -87,7 +87,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 12pt;
-  font-family: "Century Schoolbook";
+  font-family: 'Century Schoolbook';
   font-style: italic;
 }
 .c22 {
@@ -96,7 +96,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Elite";
+  font-family: 'Elite';
   font-style: normal;
 }
 .c16 {
@@ -105,7 +105,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 12pt;
-  font-family: "Courier";
+  font-family: 'Courier';
   font-style: normal;
 }
 .c26 {
@@ -114,7 +114,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 9pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: normal;
 }
 .c21 {
@@ -123,7 +123,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 8.5pt;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: italic;
 }
 .c24 {
@@ -132,7 +132,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 16pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: normal;
 }
 .c18 {
@@ -141,7 +141,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Helvetica Neue";
+  font-family: 'Helvetica Neue';
   font-style: normal;
 }
 .c10 {
@@ -150,7 +150,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: normal;
 }
 .c23 {
@@ -159,7 +159,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 8pt;
-  font-family: "Times";
+  font-family: 'Times';
   font-style: normal;
 }
 .c14 {
@@ -168,7 +168,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 7pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: italic;
 }
 .c9 {
@@ -176,8 +176,8 @@ table th {
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
-  font-size: 7pt;
-  font-family: "Bookman Old Style";
+  font-size: 17pt;
+  font-family: 'Bookman Old Style';
   font-style: normal;
 }
 .c8 {
@@ -186,7 +186,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 8.5pt;
-  font-family: "GothicPS";
+  font-family: 'GothicPS';
   font-style: normal;
 }
 .c7 {
@@ -195,7 +195,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 8.5pt;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
 }
 .c4 {
@@ -204,7 +204,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 9pt;
-  font-family: "Century Schoolbook";
+  font-family: 'Century Schoolbook';
   font-style: normal;
 }
 .c5 {
@@ -213,7 +213,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: italic;
 }
 .c2 {
@@ -222,7 +222,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-style: normal;
 }
 .c31 {
@@ -274,7 +274,7 @@ table th {
 .c27 {
   vertical-align: baseline;
   font-size: 9pt;
-  font-family: "Bookman Old Style";
+  font-family: 'Bookman Old Style';
   font-weight: 700;
 }
 .c34 {
@@ -285,7 +285,7 @@ table th {
 }
 .c19 {
   background-color: #ffffff;
-  padding: 85pt 53.9pt 53.9pt 85pt;
+  margin: 20px 35px 20px 35px;
 }
 .c32 {
   width: 33%;
@@ -307,7 +307,7 @@ table th {
   font-weight: 700;
   font-size: 36pt;
   padding-bottom: 6pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -319,7 +319,7 @@ table th {
   color: #666666;
   font-size: 24pt;
   padding-bottom: 4pt;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   line-height: 1;
   page-break-after: avoid;
   font-style: italic;
@@ -330,13 +330,13 @@ table th {
 li {
   color: #000000;
   font-size: 10pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 }
 p {
   margin: 0;
   color: #000000;
   font-size: 10pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 }
 h1 {
   padding-top: 24pt;
@@ -344,7 +344,7 @@ h1 {
   font-weight: 700;
   font-size: 24pt;
   padding-bottom: 6pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -357,7 +357,7 @@ h2 {
   font-weight: 700;
   font-size: 18pt;
   padding-bottom: 4pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -370,7 +370,7 @@ h3 {
   font-weight: 700;
   font-size: 14pt;
   padding-bottom: 4pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -383,7 +383,7 @@ h4 {
   font-weight: 700;
   font-size: 12pt;
   padding-bottom: 2pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -396,7 +396,7 @@ h5 {
   font-weight: 700;
   font-size: 11pt;
   padding-bottom: 2pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -409,7 +409,7 @@ h6 {
   font-weight: 700;
   font-size: 10pt;
   padding-bottom: 2pt;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
