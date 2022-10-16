@@ -20,4 +20,6 @@ h1 {
 }
 
 .seleccionado {
+  background-color: yellow;
+  font-weight: bold;
 }

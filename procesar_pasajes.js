@@ -40,31 +40,49 @@ const extract_relleno = (file) => {
 };
 
 const create_file = (title, pasajes, relleno) => {
-  const head =
-    '<html><head>\
-    <meta content="text/html; charset=latin1" http-equiv="content-type" />\
-    <meta name="viewport" content="width=device-width, initial-scale=1" />\
-    <link rel="stylesheet" href="../general.css" />\
-  </head>';
+  const head = `<html><head>
+    <meta content="text/html; charset=latin1" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../general.css" />
+  </head>`;
 
-  const header = "<body>\
-    <content>\
-    <h1>" + title + "</h1>\
-    <p>\
-  ";
+  const header = `<body>
+    <content>
+    <h1>${title}</h1>
+    <p>
+  `;
 
   const body = pasajes
     .map(
       (pasaje, index) =>
         `<span id="${pasaje.id}">${pasaje.contenido}</span>${
-          relleno[index] ?? ""
+          relleno[index] ? relleno[index] : ""
         }`
     )
     .join("");
 
-  const foot = "</p></content></body></html>";
+  const foot = `</p></content><script>
+  window.addEventListener("load", (event) => {
+    const path = window.location.hash.replace("#", "");
+  
+    console.log(path);
+  
+    const selectedElements = document.getElementsByClassName("seleccionado");
+  
+    if (selectedElements.length > 0)
+      selectedElements[0].classList.remove("seleccionado");
+  
+    if (path !== "") {
+      console.log(document.getElementById(path));
+      document.getElementById(path).classList.add("seleccionado");
+    }
+  });  
+  </script></body></html>`;
 
-  return `${head}${header}${body}${foot}`;
+  return `${head}${header}${body}${foot}`.replace(
+    '<span id="undefined">undefined</span>',
+    ""
+  );
 };
 
 const start_process = async () => {
