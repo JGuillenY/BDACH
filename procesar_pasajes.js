@@ -1,7 +1,8 @@
 const fs = require("fs");
 
+const filename = "idea_de_la_fenomenologia.html";
 const file_path_from = "./original/heidesgd(nwd).txt";
-const file_path_to = "./app/vistas/idea_de_la_fenomenologia.html";
+const file_path_to = `./app/vistas/${filename}`;
 const titulo_archivo = "CURSO DE IDEAS DE LAS LECCIONES";
 
 const extract_pasajes = (file) => {
@@ -108,6 +109,11 @@ const create_file = (title, pasajes, relleno) => {
       </div>
     </nav>
     <content>
+    <button class='btn btn-link eye-link-button'>
+        <a id='eye-link' href='./${filename}#todos'>
+            <i id='eye-icon'/>
+        </a>
+    </button>
     <h1>${title}</h1>
     <p id='pasajes-main'>
   `;
@@ -115,9 +121,9 @@ const create_file = (title, pasajes, relleno) => {
   const body = pasajes
     .map(
       (pasaje, index) =>
-        `<span id="${pasaje.id}">${pasaje.contenido}</span>${
-          relleno[index] ? relleno[index] : ""
-        }`
+        `<span id="${pasaje.id}" class='pasaje' name='${
+          pasaje.id?.split("-")[1]
+        }'>${pasaje.contenido}</span>${relleno[index] ? relleno[index] : ""}`
     )
     .join("");
 
@@ -125,19 +131,26 @@ const create_file = (title, pasajes, relleno) => {
   window.addEventListener("load", (event) => {
     const path = window.location.hash.replace("#", "");
   
-    console.log(path);
-  
     const selectedElements = document.getElementsByClassName("seleccionado");
   
     if (selectedElements.length > 0)
       selectedElements[0].classList.remove("seleccionado");
   
-    if (path !== "") {
-      console.log(document.getElementById(path));
-      document.getElementById(path).setAttribute('name', path.split('-')[1]);
+    if (path !== "" && path !== "todos") {
       document.getElementById(path).classList.add("seleccionado");
+    } else if (path === "todos") {
+        Array.prototype.map.call(document.getElementsByClassName('pasaje'), element => {
+            console.log(element)
+            element.classList.add("seleccionado")
+        });
+        document.getElementById('eye-link').setAttribute('href', './${filename}');
+        document.getElementById('eye-icon').setAttribute('class', 'fa-solid fa-eye-slash');
+    } else{
+        document.getElementById('eye-link').setAttribute('href', './${filename}?todos=true#todos');
+        document.getElementById('eye-icon').setAttribute('class', 'fa-solid fa-eye');
     }
-  });  
+  });
+
   </script>
   <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
