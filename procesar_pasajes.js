@@ -107,47 +107,6 @@ const create_file = (title, pasajes, relleno) => {
         </ul>
       </div>
     </nav>
-
-    <div class="dropdown">
-      <button
-        class="btn btn-link"
-        type="button"
-        id="dropdownMenuButton"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <i class="fa-sharp fa-solid fa-bars fa-xl"></i>
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="./presentacion.html"
-          >Presentación</a
-        >
-        <a class="dropdown-item" href="./instrucciones_de_uso.html"
-          >Instrucciones de uso</a
-        >
-        <a class="dropdown-item" href="./introduccion.html"
-          >Introducción</a
-        >
-        <a class="dropdown-item" href="./diccionario.html"
-          >Diccionario</a
-        >
-        <a class="dropdown-item" href="./pasajes.html">Pasajes</a>
-        <a class="dropdown-item" href="./indice_esp_ale.html"
-          >Índice Español-Alemán</a
-        >
-        <a class="dropdown-item" href="./indice_ale_esp.html"
-          >Índice Alemán-Español</a
-        >
-        <a class="dropdown-item" href="./bibliografia.html"
-          >Bibliografía</a
-        >
-        <hr />
-        <a class="dropdown-item" href="./idea_de_la_fenomenologia.html"
-          >Idea de la Fenomenología</a
-        >
-      </div>
-    </div>
     <content>
     <h1>${title}</h1>
     <p id='pasajes-main'>
@@ -175,6 +134,7 @@ const create_file = (title, pasajes, relleno) => {
   
     if (path !== "") {
       console.log(document.getElementById(path));
+      document.getElementById(path).setAttribute('name', path.split('-')[1]);
       document.getElementById(path).classList.add("seleccionado");
     }
   });  

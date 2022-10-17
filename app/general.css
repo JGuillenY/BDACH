@@ -36,22 +36,38 @@ content {
 }
 
 h1 {
+  padding-top: 24pt;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 6pt;
+  font-family: "Times New Roman";
+  line-height: 1;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
   margin: 50px 0px;
   font-size: 28pt !important;
 }
 
 .seleccionado {
-  background-color: yellow;
+  background-color: palegreen;
   font-weight: bold;
 }
 
 .seleccionado::before {
-  content: "15";
+  content: attr(name);
   position: absolute;
-  transform: translate(-41px, -7px);
+  left: 10%;
   font-size: 1.2rem;
 }
 
 li {
   font-size: 12px;
+}
+
+@media screen and (max-width: 1440px) {
+  .seleccionado::before {
+    left: 20px;
+  }
 }
