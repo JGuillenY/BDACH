@@ -12,34 +12,60 @@
     <link rel="stylesheet" href="../general.css" />
   </head>
   <body>
-    <div class="dropdown">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html"
+        ><i class="fa-solid fa-house"></i
+      ></a>
       <button
-        class="btn btn-link"
+        class="navbar-toggler"
         type="button"
-        id="dropdownMenuButton"
-        data-toggle="dropdown"
-        aria-haspopup="true"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <i class="fa-sharp fa-solid fa-bars fa-xl"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="./presentacion.html">Presentación</a>
-        <a class="dropdown-item" href="./instrucciones_de_uso.html"
-          >Instrucciones de uso</a
-        >
-        <a class="dropdown-item" href="./introduccion.html">Introducción</a>
-        <a class="dropdown-item" href="./diccionario.html">Diccionario</a>
-        <a class="dropdown-item" href="./pasajes.html">Pasajes</a>
-        <a class="dropdown-item" href="./indice_esp_ale.html"
-          >Índice Español-Alemán</a
-        >
-        <a class="dropdown-item" href="./indice_ale_esp.html"
-          >Índice Alemán-Español</a
-        >
-        <a class="dropdown-item" href="#">Bibliografía</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./presentacion.html">Presentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./instrucciones_de_uso.html"
+              >Instrucciones</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./introduccion.html"
+              >Introducción <span class="sr-only">(actual)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./diccionario.html">Diccionario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pasajes.html">Pasajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./indice_esp_ale.html">Índice ES-AL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./indice_ale_esp.html">Índice AL-ES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./bibliografia.html">Bibliografía</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./idea_de_la_fenomenologia.html"
+              >Idea de la Fenomenología</a
+            >
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
 
     <content>
       <h1>INTRODUCCI&Oacute;N</h1>

@@ -1,4 +1,4 @@
-@import url('https://themes.googleusercontent.com/fonts/css?kit=zqpv9qCntOqpqyzFcziM2jFXDelBu2lgpLV8Tx-HAlTk6Lzqt4v4L9kq0HzGZ6Gj');
+@import url("https://themes.googleusercontent.com/fonts/css?kit=zqpv9qCntOqpqyzFcziM2jFXDelBu2lgpLV8Tx-HAlTk6Lzqt4v4L9kq0HzGZ6Gj");
 ol {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 8pt;
-  font-family: 'Bookman Old Style';
+  font-family: "Bookman Old Style";
   font-style: normal;
 }
 .c5 {
@@ -33,7 +33,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: 'Elite';
+  font-family: "Elite";
   font-style: normal;
 }
 .c8 {
@@ -42,7 +42,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-style: normal;
 }
 .c0 {
@@ -50,9 +50,8 @@ table th {
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
-  font-size: 11pt;
-  font-family: 'Bookman Old Style';
-  font-style: normal;
+  font-size: 16px;
+  line-height: initial;
 }
 .c16 {
   color: #000000;
@@ -60,7 +59,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 17pt;
-  font-family: 'Bookman Old Style';
+  font-family: "Bookman Old Style";
   font-style: normal;
 }
 .c10 {
@@ -78,7 +77,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 10pt;
-  font-family: 'Elite';
+  font-family: "Elite";
   font-style: italic;
 }
 .c1 {
@@ -87,7 +86,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 11pt;
-  font-family: 'Bookman Old Style';
+  font-family: "Bookman Old Style";
   font-style: italic;
 }
 .c17 {
@@ -96,7 +95,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 9pt;
-  font-family: 'Bookman Old Style';
+  font-family: "Bookman Old Style";
   font-style: normal;
 }
 .c9 {
@@ -138,7 +137,7 @@ table th {
 .c15 {
   vertical-align: baseline;
   font-size: 9pt;
-  font-family: 'Bookman Old Style';
+  font-family: "Bookman Old Style";
   font-weight: 700;
 }
 .c12 {
@@ -155,7 +154,7 @@ table th {
   font-weight: 700;
   font-size: 36pt;
   padding-bottom: 6pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -167,7 +166,7 @@ table th {
   color: #666666;
   font-size: 24pt;
   padding-bottom: 4pt;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   line-height: 1;
   page-break-after: avoid;
   font-style: italic;
@@ -178,13 +177,13 @@ table th {
 li {
   color: #000000;
   font-size: 10pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
 }
 p {
   margin: 0;
   color: #000000;
   font-size: 10pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
 }
 h1 {
   padding-top: 24pt;
@@ -192,7 +191,7 @@ h1 {
   font-weight: 700;
   font-size: 24pt;
   padding-bottom: 6pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -205,7 +204,7 @@ h2 {
   font-weight: 700;
   font-size: 18pt;
   padding-bottom: 4pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -218,7 +217,7 @@ h3 {
   font-weight: 700;
   font-size: 14pt;
   padding-bottom: 4pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -231,7 +230,7 @@ h4 {
   font-weight: 700;
   font-size: 12pt;
   padding-bottom: 2pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -244,7 +243,7 @@ h5 {
   font-weight: 700;
   font-size: 11pt;
   padding-bottom: 2pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
@@ -257,7 +256,7 @@ h6 {
   font-weight: 700;
   font-size: 10pt;
   padding-bottom: 2pt;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   line-height: 1;
   page-break-after: avoid;
   orphans: 2;
