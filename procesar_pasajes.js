@@ -58,9 +58,10 @@ const create_file = (title, pasajes, relleno) => {
       <a class="navbar-brand" href="../index.html"
         ><i class="fa-solid fa-house"></i
       ></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -109,11 +110,12 @@ const create_file = (title, pasajes, relleno) => {
       </div>
     </nav>
     <content>
-    <button class='btn btn-link eye-link-button'>
-        <a id='eye-link' href='./${filename}#todos'>
-            <i id='eye-icon'/>
-        </a>
-    </button>
+    <div class="button-container">
+      <button id='eye-link' class='btn btn-link eye-link-button' onclick='selectAll()'>
+        <i id='eye-icon' class='fa-solid fa-eye fa-xl'></i>
+      </button>
+    </div>
+
     <h1>${title}</h1>
     <p id='pasajes-main'>
   `;
@@ -136,20 +138,26 @@ const create_file = (title, pasajes, relleno) => {
     if (selectedElements.length > 0)
       selectedElements[0].classList.remove("seleccionado");
   
-    if (path !== "" && path !== "todos") {
+    if (path !== "") {
       document.getElementById(path).classList.add("seleccionado");
-    } else if (path === "todos") {
-        Array.prototype.map.call(document.getElementsByClassName('pasaje'), element => {
-            console.log(element)
-            element.classList.add("seleccionado")
-        });
-        document.getElementById('eye-link').setAttribute('href', './${filename}');
-        document.getElementById('eye-icon').setAttribute('class', 'fa-solid fa-eye-slash');
-    } else{
-        document.getElementById('eye-link').setAttribute('href', './${filename}?todos=true#todos');
-        document.getElementById('eye-icon').setAttribute('class', 'fa-solid fa-eye');
     }
   });
+
+  function selectAll(){
+    Array.prototype.map.call(document.getElementsByClassName('pasaje'), element => {
+      element.classList.add("seleccionado-b")
+    });
+    document.getElementById('eye-icon')?.setAttribute('class', 'fa-solid fa-eye-slash fa-xl');
+    document.getElementById('eye-link')?.setAttribute('onclick', 'deselectAll()');
+  }
+
+  function deselectAll(){
+    Array.prototype.map.call(document.getElementsByClassName('pasaje'), element => {
+      element.classList.remove("seleccionado-b")
+    });
+    document.getElementById('eye-icon')?.setAttribute('class', 'fa-solid fa-eye fa-xl');
+    document.getElementById('eye-link')?.setAttribute('onclick', 'selectAll()');
+  }
 
   </script>
   <script

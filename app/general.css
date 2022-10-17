@@ -16,19 +16,20 @@ li {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 10;
 }
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 content {
   max-width: 1440px;
-  padding: 50px 50px;
+  padding: 0px 50px;
   box-sizing: border-box;
 }
 
@@ -52,10 +53,14 @@ h1 {
 
 .seleccionado {
   background-color: palegreen;
-  font-weight: bold;
 }
 
-.seleccionado::before {
+.seleccionado-b {
+  background-color: paleturquoise;
+}
+
+.seleccionado::before,
+.seleccionado-b::before {
   content: attr(name);
   position: absolute;
   left: 10%;
@@ -63,12 +68,15 @@ h1 {
 }
 
 li {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-/* .eye-link-button {
-  margin-top: 50px;
-} */
+.button-container {
+  width: 100%;
+  transform: translateY(50px);
+  display: flex;
+  justify-content: right;
+}
 
 @media screen and (max-width: 1440px) {
   .seleccionado::before {
