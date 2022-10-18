@@ -6,7 +6,9 @@
     "uglify-js": "^3.17.3"
   },
   "scripts": {
-    "build": "node procesar_pasajes.js",
+    "build": "npm run build:diccionario && npm run build:pasajes",
+    "build:diccionario": "node procesar_diccionario.js",
+    "build:pasajes": "node procesar_pasajes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

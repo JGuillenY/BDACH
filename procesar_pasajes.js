@@ -193,7 +193,10 @@ const start_process = async () => {
     .replace(/[@#]/g, "")
     .replace(/Þ/g, " ")
     .replace(/<[pP]>\d+<\/[pP]>/g, "")
-    .replace(/\n/g, "<br/>");
+    .replace(/\n/g, "<br/>")
+    .replace(/<[sS]>/g, "/")
+    .replace(/\n/g, "<br/>")
+    .replace(/<\/[sS]>/g, "/");
 
   if (fs.existsSync(file_path_to)) {
     fs.rmSync(file_path_to);
