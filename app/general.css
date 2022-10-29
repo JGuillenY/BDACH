@@ -63,7 +63,7 @@ h1 {
 .seleccionado-b::before {
   content: attr(name);
   position: absolute;
-  left: 10%;
+  left: 2.8%;
   font-size: 1.2rem;
 }
 
@@ -78,8 +78,8 @@ li {
   justify-content: right;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1525px) {
   .seleccionado::before {
-    left: 20px;
+    left: 2%;
   }
 }
