@@ -188,7 +188,7 @@ const create_file = (title, pasajes, relleno) => {
 const start_process = async () => {
   const file = fs
     .readFileSync(file_path_from, { encoding: "latin1" })
-    .replace(/[@#]/g, "")
+    .replace(/[@#]/g, "")
     .replace(/Þ/g, " ")
     .replace(/<[pP]>\d+<\/[pP]>/g, "")
     .replace(/\n/g, "<br/>")

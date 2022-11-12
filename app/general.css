@@ -98,3 +98,7 @@ li {
     left: 20px;
   }
 }
+
+#undefined {
+  display: none;
+}
