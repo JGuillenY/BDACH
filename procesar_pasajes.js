@@ -83,9 +83,7 @@ const create_file = (title, pasajes, relleno) => {
           <li class="nav-item">
             <a class="nav-link" href="./diccionario.html">Diccionario</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pasajes.html">Pasajes</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="./indice_esp_ale.html"
               >Índice ES-AL</a
