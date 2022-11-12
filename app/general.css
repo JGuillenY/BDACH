@@ -102,3 +102,12 @@ li {
 #undefined {
   display: none;
 }
+
+.space {
+  width: 15%;
+  display: inline-block;
+}
+
+.navbar-nav .active > .nav-link {
+  font-weight: bold;
+}

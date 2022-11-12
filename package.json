@@ -6,9 +6,10 @@
     "uglify-js": "^3.17.3"
   },
   "scripts": {
-    "build": "npm run build:diccionario && npm run build:pasajes",
+    "build": "npm run build:diccionario && npm run build:pasajes && npm run build:indices",
     "build:diccionario": "node procesar_diccionario.js",
     "build:pasajes": "node procesar_pasajes.js",
+    "build:indices": "node procesar_indices.js",
     "build:github": "npm run build && rm -rf docs && mkdir docs && cp -R app/* docs/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
