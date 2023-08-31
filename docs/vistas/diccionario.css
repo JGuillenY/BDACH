@@ -416,3 +416,6 @@ h6 {
   widows: 2;
   text-align: left;
 }
+span.c7 {
+  display: none;
+}

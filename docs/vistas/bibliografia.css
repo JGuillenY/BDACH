@@ -333,3 +333,6 @@ h6 {
   widows: 2;
   text-align: left;
 }
+table {
+  width: 100%;
+}
