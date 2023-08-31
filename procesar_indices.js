@@ -24,14 +24,15 @@ const process_file = (file) => {
   return file
     .replace(
       /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/g,
-      '</span><span class="space"></span><span class="c1">'
+      '</span><span class="c1">'
     )
     .replace(
       /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/g,
-      '</span><span class="space"></span><span class="c1">'
+      '</span><span class="c1">'
     )
     .replace(/<span class=\"c1\"><\/span>/g, "")
-    .replace(/<span class=\"c2\">\d<\/span>/g, "");
+    .replace(/<span class=\"c2\">\d<\/span>/g, "")
+    .replace("c12", "c0");
 };
 
 const start_process = async () => {
