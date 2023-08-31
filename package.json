@@ -11,6 +11,7 @@
     "build:pasajes": "node procesar_pasajes.js",
     "build:indices": "node procesar_indices.js",
     "build:github": "npm run build && rm -rf docs && mkdir docs && cp -R app/* docs/",
+    "build:docs": "rm -rf docs && mkdir docs && cp -R app/* docs/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
