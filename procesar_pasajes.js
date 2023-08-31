@@ -101,7 +101,7 @@ const create_file = (title, pasajes, relleno) => {
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="./idea_de_la_fenomenologia.html"
-              >Idea de la Fenomenología <span class="sr-only">(actual)</span></a
+              >La Idea de la Fenomenología <span class="sr-only">(actual)</span></a
             >
           </li>
         </ul>
