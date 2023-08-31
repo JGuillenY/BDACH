@@ -7,7 +7,7 @@ const start_process = async () => {
   const file = fs.readFileSync(file_path_from, { encoding: "utf-8" });
 
   const listaClaves = Array.from(Array(200).keys());
-  const newFile = listaClaves.reduce((prev, clave) => {
+  let newFile = listaClaves.reduce((prev, clave) => {
     const regex = new RegExp(`<span class="c0">${clave}</span>`, "g");
 
     return prev !== ""
@@ -30,6 +30,21 @@ const start_process = async () => {
             `<span class="c4"><a href='./idea_de_la_fenomenologia.html#IPC-${clave}'>${clave}</a></span>`
           );
   }, "");
+
+  let part = newFile;
+
+  while (part.indexOf('<span class="c3">') > -1) {
+    const startIndex = part.indexOf('<span class="c3">');
+    const slice = part.slice(startIndex + 1);
+    const expresion = slice.slice(slice.indexOf(">") + 1, slice.indexOf("<"));
+    const fromReplace = `<span class="c3">${expresion}</span>`;
+    const toReplace = `<span id="${expresion}" class="c3">${expresion}</span>`;
+    const newPart = part.slice(part.indexOf(fromReplace) + fromReplace.length);
+
+    part = newPart;
+
+    newFile = newFile.replace(fromReplace, toReplace);
+  }
 
   if (fs.existsSync(file_path_to)) {
     fs.rmSync(file_path_to);
