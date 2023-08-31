@@ -42,7 +42,7 @@ const extract_relleno = (file) => {
 
 const create_file = (title, pasajes, relleno) => {
   const head = `<html><head>
-    <meta content="text/html; charset=latin1" http-equiv="content-type" />
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -187,7 +187,7 @@ const create_file = (title, pasajes, relleno) => {
 
 const start_process = async () => {
   const file = fs
-    .readFileSync(file_path_from, { encoding: "latin1" })
+    .readFileSync(file_path_from, { encoding: "windows-1252" })
     .replace(/[@#]/g, "")
     .replace(/Þ/g, " ")
     .replace(/<[pP]>\d+<\/[pP]>/g, "")
@@ -204,7 +204,7 @@ const start_process = async () => {
   const relleno = extract_relleno(file);
   const newFile = create_file(titulo_archivo, pasajes, relleno);
 
-  fs.writeFileSync(file_path_to, newFile, { encoding: "latin1" });
+  fs.writeFileSync(file_path_to, newFile, { encoding: "windows-1252" });
 
   console.log(`Se ha creado el archivo en la ruta ${file_path_to}`);
 };
